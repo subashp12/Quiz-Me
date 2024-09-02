@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher';
+}
+body{
+    background-color: #001e4d;
+}
+.app{
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 40px;
+}
+h1{ 
+    border-bottom: 2px solid #001e4d;
+    margin:10px auto 10px;
+    padding: 10px;
+    text-align: center;
+    color: #507ec9;
+}
+#startQuiz{
+    display: block;
+    border: none;
+    background-color: #001e4d;
+    color: white;
+    padding: 5px 8px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0 auto 10px;
+    cursor: pointer;
+}
+.quiz{
+    background-color: #507ec9;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.quiz h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.btn{
+
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+}
+/* .btn:hover{
+    background-color:#001e4d ;
+    color: #fff;
+} */
+#next-btn{
+    width: 30%;
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #001e4d;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    display: none;
+}
+#answer-buttons{
+    margin-top: 12px;
+}
+.correct{
+    background: #9aeabc;
+}
+.incorrect{
+    background: #ff9393;
+}
+
+
+
+
+
+
+
+
+
